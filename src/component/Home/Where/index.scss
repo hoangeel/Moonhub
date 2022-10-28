@@ -1,0 +1,164 @@
+.where{
+  padding: 80px 0px 90px;
+  .titleWhere{
+    margin-bottom: 24px;
+    font-family: 'Silka';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 58px;
+    letter-spacing: -0.02em;
+    color: #191632;
+    span{
+      background: linear-gradient(268.69deg, #EB8145 9.27%, #C11ADC 52.67%, #FE78B0 102.89%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;      
+    }
+  }
+  .textWhere{
+    max-width: 746px;
+    margin-bottom: 59px;
+    font-family: 'Silka';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #89888E;
+  }
+  .rowWhere{
+    max-width: 746px;
+    .cardWhere{
+      p{
+        max-width: 226px;
+        font-family: 'Silka';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        color: #191632;
+        margin: 20px 0px 0px;
+      }
+    }
+    .leading{
+      p{
+        max-width: 200px;
+      }
+    }
+  }
+}
+
+@media(max-width: 1200px){
+  .where{
+    .textWhere{
+      max-width: 630px;
+    }
+    .rowWhere{
+      max-width: 630px;
+    }
+  }
+}
+@media(max-width: 992px){
+  .where{
+    padding: 50px 0px ;
+    .titleWhere{
+      margin-bottom: 10px;
+    }
+    .textWhere{
+      max-width: 450px;
+      margin-bottom: 30px;
+    }
+    .rowWhere{
+      max-width: 550px;
+      .cardWhere{
+        p{
+          max-width: 226px;
+          font-family: 'Silka';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 32px;
+          color: #191632;
+        }
+      }
+      .leading{
+        p{
+          max-width: 200px;
+        }
+      }
+    }
+  }
+}
+@media(max-width: 767px){
+  .where{
+    padding: 30px 0px ;
+    .titleWhere{
+      margin-bottom: 10px;
+      font-size: 26px;
+      line-height: 30px;
+    }
+    .textWhere{
+      max-width: 75%;
+      margin-bottom: 20px;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    .rowWhere{
+      max-width: 75%;
+      .cardWhere{
+        img{
+          width: 24px;
+        }
+        p{
+          margin-top: 10px;
+          max-width: 226px;
+          font-size: 14px;
+          line-height: 16px;
+        }
+      }
+      .leading{
+        p{
+          max-width: 200px;
+        }
+      }
+    }
+  }
+}
+@media(max-width: 590px){
+  .where{
+    padding: 20px 0px ;
+    text-align: center;
+    .titleWhere{
+      margin-bottom: 5px;
+      font-size: 18px;
+      line-height: 30px;
+    }
+    .textWhere{
+      max-width: 75%;
+      margin-bottom: 10px;
+      font-size: 12px;
+      line-height: 20px;
+      margin: 0px auto 10px;
+      color: black;
+    }
+    .rowWhere{
+      max-width: 75%;
+      margin: 0px auto;
+      .cardWhere{
+        img{
+          width: 24px;
+        }
+        p{
+          margin-top: 5px;
+          max-width: 226px;
+          font-size: 12px;
+          line-height: 16px;
+        }
+      }
+      .leading{
+        p{
+          max-width: 200px;
+        }
+      }
+    }
+  }
+}

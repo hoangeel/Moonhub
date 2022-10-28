@@ -1,0 +1,495 @@
+
+.trusted{
+  padding: 60px 0px;
+  .titleWhere{
+    font-family: 'Silka';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #191632;
+    margin-bottom: 60px;
+    span{
+      background: linear-gradient(90.15deg, #D935C4 74.11%, #E73E77 86.9%, #FEA160 26.63%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  .carouselTrusted{
+    .contentTrusted{
+      display: flex;
+      justify-content: center;
+      .groupImg{
+        display: flex;
+        flex-direction: row;
+        .imgs{
+          margin-right: 24px;
+          img{
+            width: 198px;
+            height: 400px;
+          }
+        }
+        .img{
+          img{
+            width: 359px;
+            height: 480px;
+          }
+          .cardImg{
+            position: relative;
+            bottom: 100px;
+            margin: 0px 0px 0px 22px;
+            .boderTop{
+              width: 20px;
+              height: 2px;
+              background: #FFC600;
+            }
+            .name{
+              margin: 12px 0px;
+              font-family: 'Silka';
+              font-style: normal;
+              font-weight: 600;
+              font-size: 20px;
+              line-height: 24px;
+              letter-spacing: -0.02em;
+              color: #FFFFFF;         
+            }
+            .job{
+              font-family: 'Silka';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 19px;
+              letter-spacing: -0.02em;
+              color: #FFFFFF;
+            }
+          }
+        }
+      }
+      .content{
+        margin-left: 60px;
+        margin-right: 145px;
+        img{
+          width: 66.69px;
+          margin-bottom: 33.33px;
+        }
+        p{
+          font-family: 'Silka';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 40px;
+          color: #191632;
+          max-width: 650px;
+          margin-bottom: 0px;
+        }
+      }
+    }
+    .hrTrusted{
+      width: 45%;
+      position: relative;
+      top: -160px;
+      left: 45%
+    }
+
+    .carousel-control-prev{
+      background: url("../../../assets/img/Group 33761.png") no-repeat;
+      width: 40px;
+      height: 40px;
+      margin: auto 0px 120px 83.5%;
+      &:hover{
+        cursor: pointer;
+        opacity: 0.7;
+      }
+      .carousel-control-prev-icon{
+        display: none;
+      }
+    }
+    .carousel-control-next{
+      margin: auto 10% 120px 0px;
+      background: url("../../../assets/img/Group 33759.png") no-repeat;
+      width: 40px;
+      height: 40px;
+      &:hover{
+        cursor: pointer;
+        opacity: 0.7;
+      }
+      .carousel-control-next-icon{
+        display: none;
+      }
+    }
+  
+    .carousel-indicators{
+      height: 8px;
+      margin: 0px calc(100% - 92%) 120px 0px;
+      button{
+        margin-top: -30px;
+        background: url("../../../assets/img/Ellipse 2851.png") no-repeat;
+        background-size: 8px;
+        width: 8px;
+      }
+      .active{
+        background: url("../../../assets/img/Ellipse 2849.png") no-repeat;
+        background-size: 8px;
+        width: 8px;
+      }
+    }
+  }
+}
+
+
+@media(max-width: 1200px){
+  .trusted{
+    .carouselTrusted{
+      .contentTrusted{
+        .groupImg{
+          .imgs{
+            margin-right: 15px;
+            img{
+              width: 144px;
+              height: 292px;
+            }
+          }
+          .img{
+            img{
+              width: 262px;
+              height: 350px;
+            }
+          }
+        }
+        .content{
+          margin-left: 60px;
+          margin-right: 145px;
+          img{
+            width: 40px;
+            margin-bottom: 20px;
+          }
+          p{
+            font-size: 18px;
+            line-height: 30px;
+          }
+        }
+      }
+      .carousel-control-prev{
+        width: 40px;
+        height: 40px;
+        margin: auto 0px 120px 81%;
+      }
+      .carousel-control-next{
+        margin: auto 10% 120px 0px;
+        width: 40px;
+        height: 40px;
+      }
+    
+      .carousel-indicators{
+        margin: 0px calc(100% - 92%) 120px 0px;
+      }
+    }
+  }
+}
+@media(max-width: 992px){
+  .trusted{
+    padding: 50px 0px;
+    .titleWhere{
+      font-size: 26px;
+      line-height: 40px;
+      margin-bottom: 40px;
+    }
+    .carouselTrusted{
+      .contentTrusted{
+        .groupImg{
+          .imgs{
+            margin-right: 15px;
+            img{
+              width: 108px;
+              height: 219px;
+            }
+          }
+          .img{
+            img{
+              width: 196px;
+              height: 262px;
+            }
+            .cardImg{
+              bottom: 90px;
+              margin: 0px 0px 0px 22px;
+              .name{
+                margin: 5px 0px;
+                font-size: 16px;
+                line-height: 20px;        
+              }
+              .job{
+                font-size: 14px;
+                line-height: 19px;
+              }
+            }
+          }
+        }
+        .content{
+          margin-left: 30px;
+          margin-right: 54px;
+          img{
+            width: 40px;
+            margin-bottom: 20px;
+          }
+          p{
+            font-size: 14px;
+            line-height: 25px;
+          }
+        }
+      }
+      .carousel-control-prev{
+        width: 30px;
+        height: 30px;
+        margin: auto 0px 130px 81%;
+        background-size: 30px;
+      }
+      .carousel-control-next{
+        margin: auto 10% 130px 0px;
+        width: 30px;
+        height: 30px;
+        background-size: 30px;
+      }
+    
+      .carousel-indicators{
+        margin: 0px calc(100% - 92%) 130px 0px;
+      }
+    }
+  }
+}
+@media(max-width: 767px){
+  .trusted{
+    padding: 30px 0px;
+    .carouselTrusted{
+      .contentTrusted{
+        .groupImg{
+          .imgs{
+            margin-right: 15px;
+            img{
+              width: 84px;
+              height: 171px;
+            }
+          }
+          .img{
+            img{
+              width: 153px;
+              height: 204px;
+            }
+            .cardImg{
+              bottom: 70px;
+              margin: 0px 0px 0px 10px;
+              .name{
+                margin: 5px 0px;
+                font-size: 14px;
+                line-height: 18px;        
+              }
+              .job{
+                font-size: 12px;
+                line-height: 14px;
+              }
+            }
+          }
+        }
+        .content{
+          margin-left: 30px;
+          margin-right: 54px;
+          img{
+            width: 30px;
+            margin-bottom: 10px;
+          }
+          p{
+            font-size: 12px;
+            line-height: 16px;
+          }
+        }
+      }
+      .hrTrusted{
+        width: 45%;
+        top: -120px;
+        left: 45%
+      }
+      .carousel-control-prev{
+        width: 25px;
+        height: 25px;
+        margin: auto 0px 100px 81%;
+        background-size: 25px;
+      }
+      .carousel-control-next{
+        margin: auto 10% 100px 0px;
+        width: 25px;
+        height: 25px;
+        background-size: 25px;
+      }
+    
+      .carousel-indicators{
+        margin: 0px calc(100% - 92%) 100px 0px;
+        button{
+          margin-top: -20px;
+          background-size: 4px;
+          width: 4px;
+        }
+        .active{
+          background-size: 4px;
+          width: 4px;
+        }
+      }
+    }
+  }
+}
+@media(max-width: 590px){
+  .trusted{
+    padding: 20px 0px;
+    .titleWhere{
+      font-size: 18px;
+      line-height: 20px;
+      margin-bottom: 20px;
+    }
+    .carouselTrusted{
+      .contentTrusted{
+        .groupImg{
+          .imgs{
+            margin-right: 10px;
+            img{
+              width: 42px;
+              height: 85px;
+            }
+          }
+          .img{
+            img{
+              width: 75px;
+              height: 102px;
+            }
+            .cardImg{
+              bottom: 35px;
+              margin: 0px 0px 0px 5px;
+              .name{
+                margin: 0px 0px;
+                font-size: 8px;
+                line-height: 12px;        
+              }
+              .job{
+                font-size: 6px;
+                line-height: 10px;
+              }
+            }
+          }
+        }
+        .content{
+          margin: -10px 12px 0px 10px;
+          img{
+            width: 10px;
+            margin-bottom: 0px;
+          }
+          p{
+            font-size: 8px;
+            line-height: 10px;
+          }
+        }
+      }
+      .hrTrusted{
+        width: 45%;
+        top: -85px;
+        left: 45%
+      }
+      .carousel-control-prev{
+        width: 15px;
+        height: 15px;
+        margin: auto 0px 80px 79%;
+        background-size: 15px;
+      }
+      .carousel-control-next{
+        margin: auto 10% 80px 0px;
+        width: 15px;
+        height: 15px;
+        background-size: 15px;
+      }
+    
+      .carousel-indicators{
+        margin: 0px calc(100% - 92%) 75px 0px;
+        button{
+          margin-top: -20px;
+          background-size: 4px;
+          width: 4px;
+        }
+        .active{
+          background-size: 4px;
+          width: 4px;
+        }
+      }
+    }
+  }
+}
+@media(max-width: 0px){
+  .trusted{
+    padding: 60px 0px;
+    .titleWhere{
+      font-size: 36px;
+      line-height: 60px;
+      margin-bottom: 60px;
+    }
+    .carouselTrusted{
+      .contentTrusted{
+        .groupImg{
+          .imgs{
+            margin-right: 24px;
+            img{
+              width: 198px;
+              height: 400px;
+            }
+          }
+          .img{
+            img{
+              width: 359px;
+              height: 480px;
+            }
+            .cardImg{
+              bottom: 100px;
+              margin: 0px 0px 0px 22px;
+              .name{
+                margin: 12px 0px;
+                font-size: 20px;
+                line-height: 24px;        
+              }
+              .job{
+                font-size: 16px;
+                line-height: 19px;
+              }
+            }
+          }
+        }
+        .content{
+          margin-left: 60px;
+          margin-right: 145px;
+          img{
+            width: 66.69px;
+            margin-bottom: 33.33px;
+          }
+          p{
+            font-size: 24px;
+            line-height: 40px;
+          }
+        }
+      }
+      .hrTrusted{
+        width: 45%;
+        top: -160px;
+        left: 45%
+      }
+      .carousel-control-prev{
+        width: 40px;
+        height: 40px;
+        margin: auto 0px 120px 83.5%;
+      }
+      .carousel-control-next{
+        margin: auto 10% 120px 0px;
+        width: 40px;
+        height: 40px;
+      }
+    
+      .carousel-indicators{
+        margin: 0px calc(100% - 92%) 120px 0px;
+      }
+    }
+  }
+}

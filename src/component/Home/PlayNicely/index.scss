@@ -1,0 +1,189 @@
+.playNicely{
+  padding: 60px 0px;
+  .titlePlayNicely{
+    max-width: 544px;
+    margin-bottom: 16px;
+    font-family: 'Silka';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 58px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    span{
+      background: linear-gradient(269.37deg,#FFEA94 20.8%, #FFD600 68.66%,  #FFA800 20.41%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  .textPlayNicely{
+    max-width: 486px;
+    margin-bottom: 0px;
+    font-family: 'Silka';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+  }
+  .groupLogo{
+    margin-top: 30px;
+    .img{
+      margin-bottom: 24px;
+      &:hover{
+        cursor: pointer;
+        opacity: 0.7;
+      }
+      img{
+        width: 172px;
+      }
+    }
+    .Taleo{
+      img{
+        display: block;
+        margin-left: auto;
+      }
+    }
+  }
+}
+
+@media(max-width: 1200px){
+  .playNicely{
+    .titlePlayNicely{
+      font-size: 36px;
+      line-height: 50px;;
+    }
+    .groupLogo{
+      margin-top: 40px;
+      .img{
+        margin-bottom: 20px;
+        img{
+          width: 140px;
+        }
+      }
+    }
+  }
+}
+@media(max-width: 992px){
+  .playNicely{
+    .titlePlayNicely{
+      font-size: 26px;
+      line-height: 35px;;
+    }
+    .textPlayNicely{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .groupLogo{
+      margin-top: 40px;
+      .img{
+        margin-bottom: 15px;
+        img{
+          width: 100px;
+        }
+      }
+    }
+  }
+}
+@media(max-width: 767px){
+  .playNicely{
+    .titlePlayNicely{
+      text-align: center;
+    }
+    .textPlayNicely{
+      text-align: center;
+      max-width: 100%;
+    }
+    .groupLogo{
+      margin-top: 40px;
+      .img{
+        margin-bottom: 24px;
+        img{
+          width: 150px;
+        }
+      }
+    }
+  }
+}
+@media(max-width: 576px){
+  .playNicely{
+    padding: 20px 0px;
+    .titlePlayNicely{
+      font-size: 18px;
+      line-height: 24px;;
+    }
+    .textPlayNicely{
+      font-size: 12px;
+      line-height: 20px;;
+    }
+    .groupLogo{
+      margin-top: 40px;
+      .img{
+        margin-bottom: 20px;
+        img{
+          width: 120px;
+        }
+      }
+      .GreenHouse{
+        img{
+          display: block;
+          margin: -75.81px auto 0px;
+        }
+      }
+      .WorkDay{
+        img{
+          display: block;
+          margin: -75.81px 0px 0px auto;
+        }
+      }
+      .Taleo{
+        img{
+          display: block;
+          margin: 0px 0px 0px 18%;
+        }
+      }
+      .ADP{
+        img{
+          display: block;
+          margin: -75.81px 18% 0px auto;
+        }
+      }
+    }
+  }
+}
+@media(max-width: 380px){
+  .playNicely{
+    .groupLogo{
+      .img{
+        margin-bottom: 15px;
+        img{
+          width: 90px;
+        }
+      }
+      .GreenHouse{
+        img{
+          display: block;
+          margin: -56.86px auto 0px;
+        }
+      }
+      .WorkDay{
+        img{
+          display: block;
+          margin: -56.86px 0px 0px auto;
+        }
+      }
+      .Taleo{
+        img{
+          display: block;
+          margin: 0px 0px 0px 18%;
+        }
+      }
+      .ADP{
+        img{
+          display: block;
+          margin: -56.86px 18% 0px auto;
+        }
+      }
+    }
+  }
+}

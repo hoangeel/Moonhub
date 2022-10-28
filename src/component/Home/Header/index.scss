@@ -1,0 +1,153 @@
+.headerHome{
+  padding: 24px 0px 0px;
+  .stackHome{
+    .logo{
+      font-family: 'Silka';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 46px;
+      letter-spacing: -0.02em;
+      color: #FFFFFF;
+      &:hover{
+        cursor: pointer;
+      }
+    }
+    .fontButton{
+      font-family: 'Silka';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.02em;
+      color: #FFFFFF;
+      &:hover{
+        cursor: pointer;
+        opacity: 0.7;
+      }
+    }
+    .ApplyButton{
+      padding: 0px;
+      background: none;
+      border: none;
+    }
+    .hireButton{
+      margin: 0px 24px;
+      align-items: flex-start;
+      width: 134px;
+      height: 44px;
+      border: 1px solid #FFFFFF;
+      border-radius: 4px;
+      background: none;
+    }
+    .vector{
+      width: 1px;
+      height: 44px;
+      background: #FFFFFF;
+      margin-right: 24px;
+    }
+    .LoginButton{
+      align-items: flex-start;
+      width: 106px;
+      height: 44px;
+      background: #FFC600;
+      border-radius: 4px;
+      border: none;
+    }
+  }
+}
+@media(max-width: 992px){
+  .headerHome{
+    padding: 10px 0px;
+    .stackHome{
+      .logo{
+        font-size: 30px;
+      }
+      .fontButton{
+        font-size: 14px;
+      }
+      .hireButton{
+        margin: 0px 15px;
+        align-items: flex-start;
+        width: 100px;
+        height: 35px;
+        border: 1px solid #FFFFFF;
+        border-radius: 4px;
+        background: none;
+      }
+      .vector{
+        width: 1px;
+        height: 44px;
+        background: #FFFFFF;
+        margin-right: 15px;
+      }
+      .LoginButton{
+        width: 90px;
+        height: 35px;
+      }
+    }
+  }
+}
+@media(max-width: 767px){
+  .headerHome{
+    padding: 5px 0px;
+    .stackHome{
+      .logo{
+        font-size: 26px;
+      }
+      .fontButton{
+        font-size: 13px;
+      }
+      .hireButton{
+        padding: 0px;
+        margin: 0px 15px;
+        align-items: flex-start;
+        width: 80px;
+        height: 30px;
+        border: 1px solid #FFFFFF;
+        border-radius: 4px;
+        background: none;
+      }
+      .vector{
+        width: 1px;
+        height: 30px;
+        background: #FFFFFF;
+        margin-right: 15px;
+      }
+      .LoginButton{
+        padding: 0px;
+        width: 80px;
+        height: 30px;
+      }
+    }
+  }
+}
+@media(max-width: 500px){
+  .headerHome{
+    padding: 0px;
+    .stackHome{
+      .logo{
+        font-size: 14px;
+      }
+      .fontButton{
+        font-size: 10px;
+      }
+      .hireButton{
+        margin: 0px 5px;
+        width: 50px;
+        height: 25px;
+        background: #FFC600;
+        border: none;
+      }
+      .vector{
+        height: 25px;
+        margin-right: 5px;
+      }
+      .LoginButton{
+        padding: 0px;
+        width: 50px;
+        height: 25px;
+      }
+    }
+  }
+}

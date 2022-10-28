@@ -1,0 +1,287 @@
+.section{
+  padding: 79px 0px;
+  .titleSection{
+    max-width: 550px;
+    font-family: 'Silka';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 74px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    .spanTitle{
+      background: linear-gradient(269.37deg, #FFD600 27.66%, #FFEA94 55.8%, #FFA800 83.41%); 
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;     
+    }
+  }
+  .textSection{
+    font-family: 'Silka';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    max-width: 525px;
+  }
+  .email{
+    margin-bottom: 33px;
+    .Type{
+      width: 348px;
+      padding: 14px 20px;
+      margin-right: 12px;
+      background: #FBFBFC;
+      border: 1px solid #DBDBDB;
+      border-radius: 4px;
+      font-family: 'Silka';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 21px;
+      color: #C6C6C6;
+    }
+  }
+  .talkButton{
+    justify-content: center;
+    align-items: center;
+    width: 199px;
+    height: 49px;
+    background: #5F2EE5;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Silka';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    &:hover{
+      cursor: pointer;
+      opacity: 0.7;
+    }
+  }
+  .groupCardSection{
+    margin-bottom: 60px;
+    .Card{
+      background: none;
+      border: none;
+      padding: 0px;
+      margin-right: 44px;
+      img{
+        width: 48px;
+        height: 48px;
+        margin-bottom: 16px;
+      }
+      h1{
+        margin-bottom: 8px;
+        font-family: 'Silka';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF;
+      }
+      p{
+        margin-bottom: 8px;
+        font-family: 'Silka';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #89888E;
+        max-width: 215px;
+      }
+    }
+  }
+}
+@media(max-width: 1300px){
+  .section{
+    padding: 50px 0px;
+    .titleSection{
+      max-width: 430px;
+      font-size: 50px;
+      line-height: 60px;
+    }
+  }
+}
+@media(max-width: 1200px){
+  .section{
+    padding: 40px 0px;
+    .titleSection{
+      max-width: 60%;
+      font-size: 45px;
+      line-height: 60px;
+      margin-bottom: 10px;
+    }
+    .textSection{
+      margin-bottom: 10px;
+    }
+    .email{
+      margin-bottom: 15px;
+    }
+    .groupCardSection{
+      margin-bottom: 60px;
+      .Card{
+        margin-right: 44px;
+        img{
+          margin-bottom: 5px;
+        }
+        h1{
+          margin-bottom: 5px;
+        }
+        p{
+          margin-bottom: 0px;
+        }
+      }
+    }
+  }
+}
+@media(max-width: 992px){
+  .section{
+    padding: 20px 0px;
+    .titleSection{
+      max-width: 81%;
+      font-size: 36px;
+      line-height: 40px;
+    }
+    .textSection{
+      max-width: 60%;
+      font-size: 14px;
+    }
+    .email{
+      margin-bottom: 15px;
+      .Type{
+        width: 300px;
+        padding: 10px 15px;
+        margin-right: 12px;
+        font-size: 14px;
+      }
+    }
+    .talkButton{
+      width: 170px;
+      height: 42px;
+      font-size: 16px;
+    }
+    .groupCardSection{
+      margin-bottom: 0px;
+      .Card{
+        margin-right: 44px;
+        img{
+          width: 24px;
+          height: 24px;
+          margin-bottom: 0px;
+        }
+        h1{
+          font-size: 18px;
+          margin-bottom: 0px;
+        }
+        p{
+          font-size: 14px;
+          margin-bottom: 40px;
+          color: #FFA800;
+        }
+      }
+    }
+  }
+}
+@media(max-width: 767px){
+  .section{
+    padding: 10px 0px;
+    .titleSection{
+      max-width: 79%;
+      font-size: 26px;
+      line-height: 30px;
+    }
+    .textSection{
+      font-size: 12px;
+      line-height: 20px;
+    }
+    .email{
+      margin-bottom: 10px;
+      .Type{
+        width: 200px;
+        padding: 5px 15px;
+        margin-right: 10px;
+        font-size: 12px;
+      }
+    }
+    .talkButton{
+      width: 120px;
+      height: 33px;
+      font-size: 12px;
+    }
+    .groupCardSection{
+      margin-bottom: 0px;
+      .Card{
+        margin-right: 0px;
+        img{
+          width: 24px;
+          height: 24px;
+          margin-bottom: 0px;
+        }
+        h1{
+          font-size: 14px;
+          margin-bottom: 0px;
+        }
+        p{
+          font-size: 12px;
+          margin-bottom: 40px;
+          max-width: 150px;
+          color: #89888E;
+        }
+      }
+    }
+  }
+}
+@media(max-width: 600px){
+  .section{
+    padding: 0px ;
+    .titleSection{
+      max-width: 80%;
+      font-size: 18px;
+      line-height: 20px;
+    }
+    .textSection{
+      max-width: 55%;
+      font-size: 10px;
+      line-height: 15px;
+    }
+    .email{
+      margin-bottom: 10px;
+      .Type{
+        width: 150px;
+        padding: 0px 5px;
+        margin-right: 10px;
+        font-size: 10px;
+      }
+    }
+    .talkButton{
+      width: 100px;
+      height: 23px;
+      font-size: 10px;
+      padding: 0px;
+    }
+    .groupCardSection{
+      margin-bottom: 0px;
+      .Card{
+        margin-right: 10px;
+        img{
+          width: 24px;
+          height: 24px;
+          margin-bottom: 0px;
+        }
+        h1{
+          font-size: 12px;
+          color: black;
+        }
+        p{
+          font-size: 10px;
+          line-height: 15px;
+          margin-bottom: 30px;
+          max-width: 130px;
+          color: black;
+        }
+      }
+    }
+  }
+}

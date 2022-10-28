@@ -1,0 +1,167 @@
+.meet{
+  padding: 100px 0px 75px;
+  .titleGet{
+    margin-bottom: 0px;
+    font-family: 'Silka';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #191632;
+    span{
+      background: linear-gradient(90.19deg, #D935C4 29.43%, #E73E77 56.39%, #FEA160 85.7%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  .textGet{
+    margin: 16px auto 60px;
+    max-width: 559px;
+    font-family: 'Silka';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #89888E;
+  }
+  .groupSearch{
+    display: flex;
+    justify-content: center;
+    .job{
+      .Control{
+        margin-right: 18px;
+        padding: 15px 20px;
+        width: 471px;
+        height: 49px;
+        background: #FBFBFC;
+        border: 1px solid #DBDBDB;
+        border-radius: 4px;
+        font-family: 'Silka';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #C6C6C6;
+      }
+    }
+    .searchButton{
+      justify-content: center;
+      align-items: center;
+      width: 209px;
+      height: 49px;
+      background: #5F2EE5;
+      border-radius: 4px;
+      font-family: 'Silka';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      color: #FFFFFF;
+      border: none;
+      &:hover{
+        cursor: pointer;
+        opacity: 0.7;
+      }
+    }
+  }
+}
+@media(max-width: 1200px){
+  .meet{
+    .titleGet{
+      font-size: 36px;
+    }
+    .textGet{
+      font-size: 16px;
+    }
+  }
+}
+
+@media(max-width: 992px){
+  .meet{
+    padding: 60px 0px;
+    .titleGet{
+      font-size: 26px;
+      line-height: 58px;
+    }
+    .textGet{
+      margin: 16px auto 60px;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    .groupSearch{
+      .job{
+        .Control{
+          width: 400px;
+        }
+      }
+      .searchButton{
+        width: 170px;
+      }
+    }
+  }
+}
+@media(max-width: 767px){
+  .meet{
+    padding: 30px 0px;
+    .titleMeet{
+      margin-bottom: 30px;
+      font-size: 26px;
+    }
+    .groupSearch{
+      .search{
+        font-size: 16px;
+      }
+      .job{
+        .Control{
+          margin-right: 10px;
+          padding: 5px 10px;
+          width: 340px;
+          height: 40px;
+          font-size: 14px;
+        }
+      }
+      .searchButton{
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+      }
+    }
+  }
+}
+@media(max-width: 540px){
+  .meet{
+    padding: 20px 0px;
+    .titleGet{
+      font-size: 18px;
+      line-height: 28px;
+    }
+    .textGet{
+      margin: 16px auto 20px;
+      font-size: 12px;
+      line-height: 20px;
+    }
+    .groupSearch{
+      .search{
+        font-size: 12px;
+      }
+      .job{
+        .Control{
+          margin-right: 5px;
+          padding: 5px 10px;
+          width: 150px;
+          height: 30px;
+          font-size: 10px;
+        }
+      }
+      .searchButton{
+        width: 110px;
+        height: 30px;
+        font-size: 10px;
+      }
+    }
+  }
+}
