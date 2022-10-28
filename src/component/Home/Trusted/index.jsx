@@ -1,6 +1,6 @@
 import React from 'react'
 import "./index.scss"
-import { Carousel, Col, InputGroup, Row } from 'react-bootstrap'
+import { Carousel} from 'react-bootstrap'
 
 import Icon from 'assets/img/Vector (2).png';
 import one from 'assets/img/Rectangle 11236.png';
