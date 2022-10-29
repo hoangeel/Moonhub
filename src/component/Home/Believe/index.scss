@@ -30,10 +30,6 @@
       height: 48px;
       border-radius: 30px;
       margin: 0px;
-      &:hover{
-        background: #FFFFFF;
-        cursor: pointer;
-      }
       .navLink{
         font-family: 'Silka';
         font-style: normal;
@@ -43,15 +39,17 @@
         text-align: center;
         letter-spacing: 0.08em;
         color: #FFFFFF; 
+        border-radius: 30px;
         &:hover{
           cursor: pointer;
           color: #191632;
+          background: #FFFFFF;
         }     
       }
       .active{
         background: #FFFFFF;
         color: #191632;
-        border-radius: 30px;
+        border-radius: 30px;  
       }
     }
     .Elastic{
@@ -91,6 +89,7 @@
         color: #FFFFFF;
       }
       button{
+        padding: 0px;
         margin-bottom: 0px;
         justify-content: center;
         align-items: center;
@@ -108,6 +107,7 @@
           background: none;
           color: #FFFFFF;
           border: #FFFFFF 1px solid;
+          border-radius: 4px;
         }
       }
     }

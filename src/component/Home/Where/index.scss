@@ -141,8 +141,11 @@
       color: black;
     }
     .rowWhere{
-      max-width: 75%;
+      max-width: 100%;
       margin: 0px auto;
+      .col{
+        padding: 0px;
+      }
       .cardWhere{
         img{
           width: 24px;
@@ -150,8 +153,8 @@
         p{
           margin-top: 5px;
           max-width: 226px;
-          font-size: 12px;
-          line-height: 16px;
+          font-size: 10px;
+          line-height: 14px;
         }
       }
       .leading{

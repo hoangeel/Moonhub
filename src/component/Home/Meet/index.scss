@@ -55,6 +55,7 @@
       }
     }
     .searchButton{
+      padding: 0px;
       justify-content: center;
       align-items: center;
       width: 209px;
@@ -129,6 +130,7 @@
     .groupSearch{
       .search{
         font-size: 12px;
+        margin-bottom: 5px;
       }
       .job{
         .Control{
